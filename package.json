@@ -1,0 +1,30 @@
+{
+  "name": "pwa-notepad",
+  "version": "1.0.0",
+  "description": "Note taking progressive web app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJessee1371/PWA-Notepad.git"
+  },
+  "author": "Jonathan Jessee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JJessee1371/PWA-Notepad/issues"
+  },
+  "homepage": "https://github.com/JJessee1371/PWA-Notepad#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongojs": "^3.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
